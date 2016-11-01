@@ -27,11 +27,3 @@ p { margin-top: 0; }
 	overflow: auto;
 }
 
-.main-menu img{
-    float: left;
-}
-
-.main-menu ul{
-
-	display: inline-block
-}

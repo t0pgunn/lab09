@@ -35,6 +35,9 @@ html, body {
 }
 .main-menu a:hover { color: #ddd; }
 
+
+.logo { float: left;}
+
 /*	****************************************
 	Long-scrolly sections
 	**************************************** */
