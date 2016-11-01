@@ -15,16 +15,23 @@ html, body {
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
 	width: 100%; /* required - makes the menu go all the way across the viewport */
 	background-color: #ccc; 
+    
+
 }
 .main-menu ul {
 	/* standard removal of UL styles */
-	margin: 0;
+	 /* margin: 0;*/
 	padding-left: 0;
 	list-style-type: none;
+    
+    margin: 0 auto;
+	width: 95%;
+	max-width: 960px;
 
 	/* required - get LIs to line-up side-by-side */
 	display: flex;
-	justify-content: center; /* optional - lookup lots of options */
+	justify-content: right; /* optional - lookup lots of options */
+    float: right;
 }
 .main-menu a { 
 	/* typical - make links look/act like buttons */
@@ -34,7 +41,6 @@ html, body {
 	text-decoration: none;
 }
 .main-menu a:hover { color: #ddd; }
-
 
 .logo { float: left;}
 
