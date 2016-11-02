@@ -42,9 +42,9 @@ p { margin-top: 0; }
 .column-right{ float: left; width: 320px; }
 .column-center{ float: left; width: 320px; }
 
-article, aside {
-    display: block;
-}
+
+
+aside {float:right;}
 
 .post {
     text-align: left;
