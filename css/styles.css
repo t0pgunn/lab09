@@ -13,6 +13,8 @@ p { margin-top: 0; }
 	padding: 5px;
 }
 
+
+
 /*	****************************************
 	Modules (reusable classes)
 	**************************************** */
@@ -25,5 +27,25 @@ p { margin-top: 0; }
 .content {
 	text-align: left;
 	overflow: auto;
+    
 }
 
+.map {
+    margin: 0 auto;
+    
+    max-width: 100%;
+    display: block;
+}
+
+.column-left{ float: left; width: 320px; padding-right: 20px;  }
+.column-right{ float: left; width: 320px; }
+.column-center{ float: left; width: 320px; padding-right: 20px;}
+
+
+/*	****************************************
+	Buttons
+	**************************************** */
+.button {border-radius: 12px;
+         padding: 14px; 40px;
+        background-color: black;
+         color:white;}
