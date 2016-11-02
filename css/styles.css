@@ -20,12 +20,13 @@ p { margin-top: 0; }
 	**************************************** */
 .container {
 	margin: 0 auto;
-	width: 95%;
+	width: 100%;
 	max-width: 960px;
+    
 }
 
 .content {
-	text-align: left;
+	text-align: left
 	overflow: auto;
     
 }
@@ -37,15 +38,34 @@ p { margin-top: 0; }
     display: block;
 }
 
-.column-left{ float: left; width: 320px; padding-right: 20px;  }
+.column-left{ float: left; width: 320px;   }
 .column-right{ float: left; width: 320px; }
-.column-center{ float: left; width: 320px; padding-right: 20px;}
+.column-center{ float: left; width: 320px; }
+
+article, aside {
+    display: block;
+}
+
+.post {
+    text-align: left;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.post h2 { 
+    text-align: center;
+border: 2px solid black;
+border-radius: 5px;
+}
+
 
 
 /*	****************************************
 	Buttons
 	**************************************** */
-.button {border-radius: 12px;
+.button {
+    
+    border-radius: 12px;
          padding: 14px; 40px;
         background-color: black;
          color:white;}
