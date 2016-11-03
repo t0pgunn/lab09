@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Old+Standard+TT');
 /*	****************************************
 	Base styles
 	**************************************** */
@@ -15,7 +16,7 @@ html, body {
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
 	width: 100%; /* required - makes the menu go all the way across the viewport */
 	background-color: #ccc;
-    
+    font-family: 'Old Standard TT', serif;
     
     
     

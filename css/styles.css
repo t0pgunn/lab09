@@ -1,6 +1,5 @@
-/*	****************************************
-	Demo styles (for demo purposes only)
-	**************************************** */
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Old+Standard+TT');
+
 p { margin-top: 0; }
 
 .right {
@@ -15,6 +14,8 @@ p { margin-top: 0; }
 
 
 
+
+
 /*	****************************************
 	Modules (reusable classes)
 	**************************************** */
@@ -23,6 +24,17 @@ p { margin-top: 0; }
 	width: 100%;
 	max-width:1080px;
 
+}
+
+.container h1, h2{
+
+font-family: 'Cabin', sans-serif;
+
+
+}
+
+.container p{
+font-family: 'Old Standard TT', serif;
 }
 
 .content {
