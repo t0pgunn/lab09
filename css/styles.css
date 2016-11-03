@@ -63,6 +63,16 @@ border: 2px solid black;
 border-radius: 5px;
 }
 
+.post p {
+padding-bottom: 10px;
+padding-right: 10px;
+}
+
+.push-right{
+
+	float: right;
+}
+
 
 
 /*	****************************************
