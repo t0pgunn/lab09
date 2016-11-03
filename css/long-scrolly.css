@@ -50,11 +50,14 @@ html, body {
 	Long-scrolly sections
 	**************************************** */
 section {
-    min-height: 100%; /* required - makes the sections act like pages */
+    min-height: 30%; /* required - makes the sections act like pages */
     padding-top: 75px; /* how tall is the persistent nav bar at the top? */
     padding-bottom: 25px; /* typical - keep content away from the next section */
     text-align: center; /* typical for long scrolly pages */
 }
+
+
+
 
  /* typical - alter the bg for every other section */
 section:nth-child(even) {background-color: #eee; }
